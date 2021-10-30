@@ -353,6 +353,32 @@ ELEMENTS = ElementsDict(
         isotopes={14: Isotope(14.0030740052, 0.99632, 14),
                   15: Isotope(15.0001088984, 0.00368, 15)}),
     Element(
+        # Python3 program to
+# demonstrate instantiating
+# a class
+
+
+class Dog:
+	
+	# A simple class
+	# attribute
+	attr1 = "mammal"
+	attr2 = "dog"
+
+	# A sample method
+	def fun(self):
+		print("I'm a", self.attr1)
+		print("I'm a", self.attr2)
+
+# Driver code
+# Object instantiation
+Rodger = Dog()
+
+# Accessing class attributes
+# and method through objects
+print(Rodger.attr1)
+Rodger.fun()
+
         8, 'O', 'Oxygen',
         group=16, period=2, block='p', series=1,
         mass=15.9994, eleneg=3.44, eleaffin=1.461112,
@@ -426,49 +452,32 @@ ELEMENTS = ElementsDict(
         ionenergy=(5.9858, 18.828, 28.447, 119.99, 153.71,
                    190.47, 241.43, 284.59, 330.21, 398.57,
                    442.07, 2085.983, 2304.08, ),
-        isotopes={27: Isotope(26.98153844, 1.0, 27)}),
-    Element(
-        14, 'Si', 'Silicon',
-        group=14, period=3, block='p', series=5,
-        mass=28.0855, eleneg=1.9, eleaffin=1.389521,
-        covrad=1.11, atmrad=1.46, vdwrad=2.1,
-        tboil=2630.0, tmelt=1683.0, density=2.33,
-        eleconfig='[Ne] 3s2 3p2',
-        oxistates='4*, -4',
-        ionenergy=(8.1517, 16.345, 33.492, 45.141, 166.77,
-                   205.05, 246.52, 303.17, 351.1, 401.43,
-                   476.06, 523.5, 2437.676, 2673.108, ),
-        isotopes={28: Isotope(27.9769265327, 0.922297, 28),
-                  29: Isotope(28.97649472, 0.046832, 29),
-                  30: Isotope(29.97377022, 0.030871, 30)}),
-    Element(
-        15, 'P', 'Phosphorus',
-        group=15, period=3, block='p', series=1,
-        mass=30.973761, eleneg=2.19, eleaffin=0.7465,
-        covrad=1.06, atmrad=1.23, vdwrad=1.8,
-        tboil=553.0, tmelt=317.3, density=1.82,
-        eleconfig='[Ne] 3s2 3p3',
-        oxistates='5*, 3, -3',
-        ionenergy=(10.4867, 19.725, 30.18, 51.37, 65.023,
-                   220.43, 263.22, 309.41, 371.73, 424.5,
-                   479.57, 560.41, 611.85, 2816.943, 3069.762, ),
-        isotopes={31: Isotope(30.97376151, 1.0, 31)}),
-    Element(
-        16, 'S', 'Sulfur',
-        group=16, period=3, block='p', series=1,
-        mass=32.065, eleneg=2.58, eleaffin=2.0771029,
-        covrad=1.02, atmrad=1.09, vdwrad=1.8,
-        tboil=717.82, tmelt=392.2, density=2.06,
-        eleconfig='[Ne] 3s2 3p4',
-        oxistates='6*, 4, 2, -2',
-        ionenergy=(10.36, 23.33, 34.83, 47.3, 72.68,
-                   88.049, 280.93, 328.23, 379.1, 447.09,
-                   504.78, 564.65, 651.63, 707.14, 3223.836,
-                   3494.099, ),
-        isotopes={32: Isotope(31.97207069, 0.9493, 32),
-                  33: Isotope(32.9714585, 0.0076, 33),
-                  34: Isotope(33.96786683, 0.0429, 34),
-                  36: Isotope(35.96708088, 0.0002, 36)}),
+# Python3 program to
+# demonstrate instantiating
+# a class
+
+
+class Dog:
+	
+	# A simple class
+	# attribute
+	attr1 = "mammal"
+	attr2 = "dog"
+
+	# A sample method
+	def fun(self):
+		print("I'm a", self.attr1)
+		print("I'm a", self.attr2)
+
+# Driver code
+# Object instantiation
+Rodger = Dog()
+
+# Accessing class attributes
+# and method through objects
+print(Rodger.attr1)
+Rodger.fun()
+
     Element(
         17, 'Cl', 'Chlorine',
         group=17, period=3, block='p', series=6,
